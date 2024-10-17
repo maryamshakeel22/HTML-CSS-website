@@ -1,0 +1,386 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-icons  {
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 5px 5px 5px;
+    background: black; 
+    color: white;
+}
+
+.header-icons .material-icons  {
+    color: rgb(40, 163, 40);
+}
+
+.callme {
+    background-color: rgb(40, 163, 40);
+    border: none;
+    padding: 11px 9px 11px 9px;
+    cursor: pointer;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.navbar {
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px 5px 10px;
+}
+
+.navbar ul {
+    display: flex;
+    gap: 10px;
+    text-align: center;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #031020;
+}
+
+.navbar ul li  {
+    list-style: none;
+    text-align: center;
+}
+
+.logo img {
+    width: 80px;
+}
+
+.home {
+    align-items: center;
+    text-align: center;
+    background-color: #61c350;
+    padding: 63px;
+    width: 200;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+.home p {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 30px;
+}
+
+.home .Readmore {
+    padding: 8px 15px 8px 15px;
+    border: 1px solid orangered;
+    background: orange;
+    cursor: pointer;
+    font-weight:normal;
+}
+
+h2{
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    color: #61c350;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.advantage p {
+    text-align: center;
+    justify-content: center;
+    padding: 5px;
+}
+
+.Advantageimg {
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.invention {
+    padding: 5px 10px 5px 10px;
+    margin: 30px;
+}
+
+.quality {
+    padding: 0px 0px 0px 0px;
+}
+
+.experiance {
+    padding: 12px 0px 14px 0px;
+}
+
+.happyclient {
+    padding: 0px 35px 0px 0px;
+}
+
+.support {
+    padding: 15px;
+}
+
+.about p {
+    padding: 10px 20px 10px 10px;
+    margin: 20px 35px 20px 35px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    /* width: 80%; */
+    /* max-width: 450px; */
+    margin-top: 10px;
+    gap: 4rem;
+}
+
+.Readmore {
+    margin: 30px;
+    padding: 8px 15px 8px 15px;
+    border: 1px solid orangered;
+    background: orange;
+    cursor: pointer;
+    font-weight:normal;
+}
+
+.services .container {
+    display: flex;
+    flex-wrap: wrap;  
+    justify-content: center;
+    gap: 20px;
+  }
+  
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 250px;
+    padding: 15px 10px 5px 10px;
+    display: grid;
+  }
+
+.card :hover {
+    box-shadow: 0 4px 12px rgba(168, 16, 16, 0.1);
+  }
+  
+
+h4 {
+    color: #61c350;
+    text-align: center;
+}
+
+a{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #61c350;
+}
+
+.container .processP {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+    color: gray;
+}
+
+.container .row {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.PAbout {
+    background-color: rgb(232, 232, 232);
+    border: 2px solid gray;
+}
+
+.PAboutP {
+    text-align: center;
+    color: gray;
+}
+
+.IntroD1 {
+    justify-content: center;
+    position: relative;
+    display: flex;
+    /* justify-content: space-between; */
+    padding: 30px;
+    /* max-width: 500px; */
+}
+
+.IntroD2 {
+    justify-content: center;
+    position: relative;
+    display: flex;
+    /* justify-content: space-between; */
+    padding: 30px;
+    /* max-width: 500px; */
+}
+
+.containerSkill {
+    width: 50%;
+    background-color: gray;
+}
+
+.skills .skillP {
+    color: gray;
+    padding: 20px;
+    text-align: center;
+}
+
+.seo {
+    width: 60%; 
+    background-color: black;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+}
+
+.skills p {
+    color: green;
+    padding: 10px;
+    /* text-align: center; */
+}
+
+.design {
+    width: 75%; 
+    background-color: red;
+    text-align: right;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+}
+
+.brand {
+    width: 80%; 
+    background-color: green;
+    text-align: right;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+}
+
+.newProject {
+    padding: 20px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: #61c350;
+    color: white;
+    gap: 5px;
+}
+
+.newProject h2 {
+    color: white;
+}
+
+.newProject p {
+    padding: 7px;
+}
+
+input {
+    line-height: 20px;
+}
+
+.contact {
+    justify-content: center;
+    text-align: center;
+    color: gray;
+}
+
+.footer {
+    background-color: green;
+    color: white;
+    font-size: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px
+}
+
+.footer .logo {
+    padding: 20px;
+}
+
+.footerP {
+    max-width: 150px;
+    padding: 30px;
+}
+
+.footer p {
+    padding: 30px;
+}
+
+/* .footer2p {
+    display: flex;
+} */
+
+.last {
+   background-color: green;
+   text-align: center;
+   color: white;
+   font-size: 30px;
+}
+
+@media only screen and (max-width: 644px){
+    body {
+        margin: 5px;
+    }
+
+    #container {
+        width: 300;
+    }
+
+    .callme{
+        display: none;
+    }
+    
+    .navbar ul li {
+        display: none;
+    }
+
+    .home {
+        background-color: #61c350;
+        margin: 0;
+        padding: 0;
+        height: 100%;
+    }
+
+    .container .row {
+        flex-wrap: wrap;
+    }
+
+    .footer {
+        padding: 5px;
+    }
+
+    .footer1p {
+        display: flex;
+    }
+
+    .hori {
+        display: none;
+    }
+
+    .footer2p {
+        display: none;
+    }
+
+    .last {
+        font-size: 15px;
+    }
+
+    input {
+        line-height: 20px;
+    }
+}
